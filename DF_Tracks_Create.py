@@ -16,8 +16,8 @@ pd.set_option('display.max_rows', 150)
 pd.set_option('display.max_colwidth', None)
 
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
-    client_id="1346ad7fd5d14060af96cc4eaf61e382",
-    client_secret="cead24bc33ab4881b21e54f5443534ec"))
+    client_id="CLIENT_ID",
+    client_secret="CLIENT_SECRET"))
 
 f = open('./Weekly_Discovery_Archives.json')
 archives = json.load(f)
