@@ -6,7 +6,9 @@ Finishing our bootcamp in Data Science at WBS Coding school, my Partner Pat and 
 This tool is really easy to use, and full of information. 
 The main goal of this project is to use our knowledge, internet, and Spotify API in order to predict if a track popularity can be predictable. In this case, it can guide artists to make some changes and to be aware of what can be expected while releasing a song. 
 
-The Popularity on Spotify is a number between 0 to 100 where 100 is the most popular possible. “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.
+The Popularity on Spotify is a number between 0 to 100 where 100 is the most popular possible. 
+
+> “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are.
 Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past.” - Spotify Documentation
 
 Having done some research on the internet, we could see similar projects with the Audio Features provided by the Spotify API. Also, mostly, the projects are classifying the tracks between Popular/Not Popular. We wanted then to expend this and have a real number output, and work also with the actual songs, not only the audio features. We could download 30secondes previews from spotify thanks to their API, and create spectrograms from it. 
